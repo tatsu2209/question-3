@@ -54,7 +54,7 @@ $(function(){
     });
   });
   // Worksの画像をクリックしたときにモーダルで拡大表示する
-  $('.img').on('click',function(){
+  $('.works img').on('click',function(){
     const newSrc = $(this).attr('src');
     $('modal-img').attr('src',newSrc);
     $('.modal').fadeIn();
